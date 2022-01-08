@@ -1,12 +1,12 @@
 # https://leetcode.com/problems/two-sum/
 
-# # 方法一 Brute Force: 7827 ms 14.8 MB
+# # 方法一 Brute Force: 7827 ms 14.8 MB 
 # def twoSum(nums, target: int):
-#     # 從第一個數開始 迴圈，如果list中有4個數值，就從一開始迴圈跑到最後一個
+#     # 開始一個一個 迴圈
 #     for i in range(len(nums)):
-#         # 在每一次的迴圈中，扣除掉目前所在的數值，再做迴圈，到最後一個
+#         # 在裡面的迴圈，扣除掉目前所在i數值，再做迴圈
 #         for j in range(i + 1, len(nums)):
-#             # 所以當目標值扣掉i所在的數值剛好等於j所在的數值，那就會得到i和j這兩個index了
+#             # 如果目標值扣掉i數值剛好等於j數值，那就回傳i和j這兩個index
 #             if nums[j] == target - nums[i]:
 #                 return [i, j]
 
