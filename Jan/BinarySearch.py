@@ -2,6 +2,7 @@
 
 
 ''' 
+# Binary Search
 704. Binary Search
 預想:
 假設中間值剛好是我們要的target, 那我們就回傳該index

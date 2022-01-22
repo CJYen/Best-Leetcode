@@ -1,4 +1,5 @@
 '''
+# Binary Search
 035 - Search Insert Position
 !必需是O(log n)
 

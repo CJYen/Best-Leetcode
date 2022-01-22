@@ -1,4 +1,5 @@
 '''
+# Binary Search
 278. First Bad Version
 在n裡面，如果bad的值之後，都會是false
 想像你是產品經理，當你知道某個版本的build是錯的，
@@ -16,11 +17,11 @@ output:
 n = 5
 bad = 4
 
-def isBadVersion(i):
-    if i == bad:
-        return True
-    else: 
-        return False
+# def isBadVersion(i):
+#     if i == bad:
+#         return True
+#     else: 
+#         return False
 
 
 '''
